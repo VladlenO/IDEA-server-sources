@@ -1,0 +1,8 @@
+1) please run container port 80:80
+2)
+RUN mkdir -p /home/javaserver/
+WORKDIR /home/javaserver/
+COPY . /home/javaserver/
+
+3) docker pull vladleno/javasrv:javasrv
+4) https://github.com/VladlenO/IDEA-server-sources.git
