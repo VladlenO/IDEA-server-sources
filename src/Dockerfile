@@ -23,3 +23,4 @@ ENTRYPOINT ["java","-classpath","javaServerUpdate.jar","Server"]
 #EXPOSE 80
 #ADD /out/artifacts/JavaGitHub_jar.jar /server/JavaGitHub_jar.jar
 #ENTRYPOINT ["java","-jar","JavaGitHub_jar.jar"]
+#end
