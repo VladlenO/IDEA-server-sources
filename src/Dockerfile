@@ -1,12 +1,9 @@
 FROM java:8
-
 RUN mkdir -p /home/javaserver/
-
 WORKDIR /home/javaserver/
-
 COPY . /home/javaserver/
 #CMD ["java -classpath 'javaServer.jar' Server"]
-ENTRYPOINT ["java","-classpath","javaServer.jar","Server"]
+ENTRYPOINT ["java","-classpath","javaServerUpdate.jar","Server"]
 
 
 
@@ -19,7 +16,6 @@ ENTRYPOINT ["java","-classpath","javaServer.jar","Server"]
 #ENTRYPOINT ["java","-jar","resource.jar"]
 
 #docker run -d -p 18080:8080 --name docker-resource leesia/resource:1.0
-
 
 
 
