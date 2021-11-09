@@ -4,5 +4,6 @@ RUN mkdir -p /home/javaserver/
 WORKDIR /home/javaserver/
 COPY . /home/javaserver/
 
-3) docker pull vladleno/javasrv:javasrv
+3) docker pull vladleno/javasrv
+    vladleno/javasrv:javasrv
 4) https://github.com/VladlenO/IDEA-server-sources.git
